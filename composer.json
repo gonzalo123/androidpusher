@@ -1,0 +1,25 @@
+{
+    "name":"gonzalo123/androidpusher",
+    "description":"tool to send push notifications to android devices",
+    "license":"MIT",
+    "keywords":["cli", "android", "curl"],
+    "type":"library",
+    "homepage":"https://github.com/gonzalo123/androidpusher",
+    "authors":[
+        {
+            "name":"Gonzalo Ayuso",
+            "email":"gonzalo123@gmail.com",
+            "homepage":"http://gonzalo123.com"
+        }
+    ],
+
+    "require":{
+        "php":">=5.3.0",
+        "ext-curl": "*"
+    },
+    "autoload":{
+        "psr-0":{
+            "":"lib/"
+        }
+    }
+}
