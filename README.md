@@ -1,7 +1,6 @@
-<?php
+Simple library to send push notifications to android devices
 
-include __DIR__ . "/vendor/autoload.php";
-
+```php
 // https://code.google.com/apis/console/
 $apiKey = "myApiKey";
 $regId = "device reg ID";
@@ -10,3 +9,4 @@ $pusher = new AndroidPusher\Pusher($apiKey);
 $pusher->notify($regId, "Hola");
 
 print_r($pusher->getOutputAsArray());
+```
